@@ -1,0 +1,60 @@
+body {
+    margin: 20px 20px 20px 20px;
+    background-color: #0F1837;
+}
+
+header {
+    position: absolute;
+    width: 1260px;
+    height: 60px;
+    top: 40px;
+}
+
+.header-logo {
+    float: left;
+    padding-left: 30px;
+}
+
+.rectangle {
+    width: 53px;
+    height: 60px;
+}
+
+.header-list {
+    float: left;
+    padding-left: 350px;
+    padding-top: 11px;
+}
+
+.header-list a {
+    font-style: none;
+    padding-left: 30px;
+    font-size: 18px;
+    color: silver;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #83D987;
+}
+
+.btn-account {
+    float: right;
+    padding-top: 5px;
+}
+
+.btn {
+    border-radius: 4px;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.akun {
+    background-color: #83D987;
+    padding: 15px 40px;
+    cursor: pointer;
+}
